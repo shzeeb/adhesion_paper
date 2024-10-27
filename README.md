@@ -6,13 +6,13 @@ This README provides an overview of all the code used in this study to model and
 
 The code generates data used to produce the figures presented in the paper.
 
-1. `single_species_adhesion_par.m`: simulates the single-species adhesion model.
+1. `single_species_adhesion_par.m`: simulates the single-species adhesion stochastic agent-based model (ABM).
 
-2. `cross_adhesion_1D_par.m`: simulates the one-dimensional, two-species adhesion model.
+2. `cross_adhesion_1D_par.m`: simulates the one-dimensional, two-species adhesion stochastic ABM.
 
-3. `cross_adhesion_2D_par.m`: simulates the two-dimensional, two-species adhesion model.
+3. `cross_adhesion_2D_par.m`: simulates the two-dimensional, two-species adhesion stochastic ABM.
 
-4. `initial_cond.m`: defines initial conditions for the agent-based model (ABM) used to produce various figures.
+4. `initial_cond.m`: defines initial conditions for the ABM used to produce various figures.
 
 5. `single_species_pde.ipynb`: solves the partial differential equation (PDE) for the single-species, two-dimensional ABM, computes a pseudo-1D solution, and saves it as a `.mat` file.
 
